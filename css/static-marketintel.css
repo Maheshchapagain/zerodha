@@ -1,0 +1,238 @@
+.page_header {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+	.page_header .xml {
+		margin: 10px 0 0 0;
+	}
+	.page_header .xml img {
+		height: 12px;
+	}
+.subnav {
+	text-align: center;
+	margin-top: 30px;
+}
+.subnav a {
+	display: inline-block;
+	padding: 5px 15px;
+	margin: 0 15px;
+}
+	.subnav a.selected {
+		background: #387ED1;
+		color: #fff;
+		border-radius: 3px;
+		font-weight: bold;
+	}
+
+.bulletin-single {
+	margin-bottom: 60px;
+}
+
+.marketintel-source {
+	display: inline-block;
+	margin-top: 5px;
+	border: 1px solid #666;
+	border-radius: 3px;
+	padding: 2px 5px;
+	margin-top: 5px;
+	min-width: 30px;
+	
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.75em;
+	text-align: center;
+}
+	.marketintel-source.bse {
+		border-color: #0089D0;
+		color: #0089D0;
+	}
+	.marketintel-source.nse {
+		border-color: #880002;
+		color: #880002;
+	}
+	.marketintel-source.mcx {
+		border-color: #ED1C24;
+		color: #ED1C24;
+	}
+	.marketintel-source.sebi {
+		border-color: #2E3192;
+		color: #2E3192;
+	}
+	.marketintel-source.fmc {
+		border-color: #629B2E;
+		color: #629B2E;
+	}
+
+#circulars .marketintel-source {
+	margin-top: 5px;
+}
+	#bulletins .post-title {
+		margin: 0 0 20px 0;
+		line-height: 1.3;
+	}
+	#bulletins li {
+		margin-bottom: 40px;
+	}
+	#circulars .post-title {
+		margin: 0;
+	}
+	#circulars li {
+		margin-bottom: 20px;
+	}
+	#bulletins li .three {
+		padding-top: 5px;
+	}
+	#circulars li .three {
+		padding-top: 7px;
+	}
+
+#holidays .row {
+	border-bottom: 1px solid #eaeaea;
+	padding-top: 10px;
+}
+#holidays .tag {
+	border-radius: 3px;
+	border: 1px solid #aaa;
+	padding: 2px 5px;
+	margin-top: 5px;
+	min-width: 30px;
+	
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.75em;
+	text-align: center;
+	color: #aaa;
+}
+	#holidays .tag {
+		margin-right: 5px;
+		font-size: .75em;
+		text-transform: uppercase;
+	}
+	#holidays .tag.trading {
+		border-color: #F17300;
+		color: #F17300;
+	}
+	
+#holidays .exchanges {
+	font-size: 0.75em;
+	text-transform: uppercase;
+}
+	#holidays .exchanges .exchange {
+		margin-right: 5px;
+	}
+
+#holidays .next-flag {
+	background: #2ecc71;
+	margin: 0;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+}
+#holidays .next .holiday-date {
+	text-decoration: underline;
+	font-weight: 600;
+}
+#holidays li .holiday-date {
+	padding-top: 6px;
+}
+#holidays li .holiday-name {
+	line-height: 1.3;
+}
+#holidays li .four {
+	padding-top: 4px;
+}
+
+#ipo table .name {
+	width: 40%;
+	font-size: 1em;
+}
+#ipo table td {
+	vertical-align: top;
+}
+#ipo table tr.closed td {
+	color: #666;
+}
+	#ipo table tr.closed .name,
+	#ipo table tr.closed a {
+		font-size: 1em;
+		color: #666;
+	}
+#ipo .table-container {
+	max-width: 100%;
+	overflow: auto;
+}
+#ipo .ipo-single h1, #ipo .ipo-single h2, #ipo h2 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#ipo .ipo-single .excerpt {
+	margin-bottom: 25px;
+}
+#ipo .closed-ipo-head {
+	margin-top: 50px;
+}
+
+#ipo .ipo-meta {
+	border: 2px solid #f4f4f4;
+	box-shadow: 1px 1px 4px #f4f4f4;
+	padding: 10px;
+}
+	#ipo .ipo-meta td {
+		font-size: 1em;
+	}
+	#ipo .ipo-meta .label {
+		font-weight: 500;
+		color: #666;
+	}
+	#ipo .content {
+		margin-top: 45px;
+	}
+	#ipo .ipo-closed {
+		text-transform: uppercase;
+		font-size: 0.65rem;
+		padding: 3px 6px 2px 6px;
+		border-radius: 2px;
+		width: 50px;
+		display: inline-block;
+		text-align: center;
+		background: rgba(255, 85, 85, 0.15);
+		color: #f6461a;
+		margin-left: 5px;
+	}
+	#ipo h3 .ipo-closed {
+		position: relative;
+		bottom: 6px;
+	}
+	#ipo td .ipo-closed {
+		position: relative;
+		bottom: 2px;
+	}
+
+.videos-list .item {
+  margin-bottom: 90px;
+}
+.videos-list .item img {
+ max-width: 400px;
+ height: auto; 
+ border-radius: 3px;
+ box-shadow: 2px 1px 2px #eee;
+ background: #fff;
+ padding: 5px;
+ border: 1px solid #eee;
+}
+
+.video-embed {
+ background: #fff;
+ border-radius: 3px;
+ box-shadow: 2px 1px 2px #eee;
+ border: 1px solid #eee;
+ padding: 5px;
+ margin: 30px auto 60px auto;
+}
+
+@media screen and (max-width: 600px) {
+	#ipo .ipo-meta {
+		max-width: 100%;
+	}
+}
